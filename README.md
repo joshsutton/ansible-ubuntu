@@ -1,5 +1,4 @@
-Bootstrap an Ubuntu server with Ansible
-
+# Bootstrap an Ubuntu server with Ansible
 
 The included tasks are following:
 
