@@ -71,3 +71,5 @@ $ ansible-playbook collectd.yml --ask-sudo
 ```
 $ ansible-playbook user.yml --ask-sudo
 ```
+
+Inspired by zenzire
