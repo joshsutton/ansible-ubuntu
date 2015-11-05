@@ -4,4 +4,5 @@
 - include: secure.yml
 - include: packages.yml
 - include: locale.yml  
+- include: newrelic.yml 
 

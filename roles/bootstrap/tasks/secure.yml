@@ -3,7 +3,7 @@
   action: apt pkg=fail2ban state=installed
    
 - name: Disallow password authentication
-  action: lineinfile dest=/etc/ssh/sshd_config regexp="^PasswordAuthentication" line="PasswordAuthentication no" state=present
+  action: lineinfile dest=/etc/ssh/sshd_config regexp="^PasswordAuthentication" line="PasswordAuthentication yes" state=present
   notify: restart ssh
 
 - name: Disallow root SSH access

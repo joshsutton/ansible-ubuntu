@@ -4,4 +4,10 @@
   with_items:
     - vim
     - mc
-
+    - htop
+    - git
+    - git-core
+    - python-pycurl
+    - tree
+    - locate
+    - docker.io  
