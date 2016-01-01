@@ -28,10 +28,12 @@ $ sudo apt-get install ansible
 
 ```
 $ cp hosts.sample hosts
-$ cp global_vars/server.yml.sample global_vars/server.yml
+$ cp group_vars/server.yml.sample global_vars/server.yml
 ```
-Edit configuration files (hosts and global_vars/server.yml) with your own configuration.
+Edit configuration files (hosts and group_vars/server.yml) with your own configuration.
 
+* To add local machine to host file:
+localhost ansible_connection=local
 
 # Create admin user and assing this user to sudoers group.
 
