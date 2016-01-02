@@ -1,8 +1,8 @@
 --- 
-hostname: 'mydomain.com'
-collectd_server_name: 'collecd-web.mydomain.com'
+hostname: '*.sutton.li'
+collectd_server_name: 'collecd-web.sutton.li'
 locale: 'en_US.UTF-8'
 language: 'en_US:en'
-timezone: 'Europe/Warsaw'
+timezone: 'America/Chicago'
 ntp_server: 'pool.ntp.org'
 
