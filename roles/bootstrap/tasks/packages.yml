@@ -16,3 +16,5 @@
     - ruby
     - ruby-dev
     - rubygems
+    - python-passlib
+    
